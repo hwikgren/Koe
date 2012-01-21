@@ -13,15 +13,21 @@ public class Henkilo {
     String etunimi;
     String sukunimi;
 
-    public Henkilo() {
-    }
-    
-    void lisaaNimi(String etu, String suku) {
+    public Henkilo(String etu, String suku) {
         this.etunimi = etu;
         this.sukunimi = suku;
     }
     
-    void lisaaOsaaminen() {
-        Osaaminen taito = new Osaaminen();
+    void lisaaOsaaminen(String osaaminen) {
+        Taidot taito = new Taidot();
+        taito.lisaaOsaaminen(osaaminen);
+    }
+    
+    String getEtunimi() {
+        return this.etunimi;
+    }
+    
+    String getSukunimi() {
+        return this.sukunimi;
     }
 }
