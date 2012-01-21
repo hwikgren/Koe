@@ -56,6 +56,5 @@ public class Kortisto {
     void lisaaOsaaminen(Henkilo henkilo) {
         henkilo.lisaaOsaaminen();
         
-        System.out.println("");
     }
 }

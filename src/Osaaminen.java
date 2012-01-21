@@ -8,5 +8,9 @@
  * @author heidi
  */
 public class Osaaminen {
+
+    public Osaaminen() {
+    }
+    
     
 }
